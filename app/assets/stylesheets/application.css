@@ -15,3 +15,13 @@
 body {
 	padding-top: 40px;
 }
+
+/* add some padding at top of flash messages */
+.alert {
+	margin-top: 10px;
+}
+
+/* add some padding at top of sign in form*/
+.row.signin {
+	margin-top: 10px;
+}
