@@ -21,4 +21,9 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
   	assert_response :success
   end
 
+  test "that a profile page works" do
+    get '/jshaffer'
+    assert_response :success
+  end
+
 end
